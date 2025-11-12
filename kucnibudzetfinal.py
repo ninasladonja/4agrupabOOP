@@ -88,7 +88,7 @@ class FinTrackApp:
         menubar.add_cascade(label="Aplikacija", menu=app_menu)
         root.config(menu=menubar)
 
-        # ---------- UNOS ----------
+        
         okvir = ttk.LabelFrame(root, text="Unos transakcije")
         okvir.pack(fill="x", padx=15, pady=10)
 
