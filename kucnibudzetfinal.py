@@ -426,7 +426,7 @@ class FinTrackApp:
             "Autor: Vi\n\n"
             "Sadrži: jedinstvene ID-e, validaciju datuma, valute,\n"
             "napredno filtriranje, sažetke, postavke i autosave."
-        )
+       
 
 
 
@@ -435,5 +435,6 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = FinTrackApp(root)
     root.mainloop()
+
 
 
