@@ -74,7 +74,7 @@ class FinTrackApp:
         self.root.geometry("750x650")
         self.root.configure(bg="#f2f6f9")
 
-        )
+        
         self.default_kategorije = ["Hrana", "Režije", "Prijevoz", "Zabava"]
         self.default_izvori = ["Plaća", "Stipendija", "Poklon"]
 
@@ -419,13 +419,13 @@ class FinTrackApp:
 
 
     def o_aplikaciji(self):
-        messagebox.showinfo(
-            "O aplikaciji",
-            "💰 FinTrack – Kućni budžet\n"
-            "Verzija: 1.5\n"
-            "Autor: Vi\n\n"
-            "Sadrži: jedinstvene ID-e, validaciju datuma, valute,\n"
-            "napredno filtriranje, sažetke, postavke i autosave."
+        messagebox.showinfo
+        "O aplikaciji",
+        "💰 FinTrack – Kućni budžet\n"
+        "Verzija: 1.5\n"
+        "Autor: Vi\n\n"
+        "Sadrži: jedinstvene ID-e, validaciju datuma, valute,\n"
+        "napredno filtriranje, sažetke, postavke i autosave."
        
 
 
@@ -435,6 +435,8 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = FinTrackApp(root)
     root.mainloop()
+
+
 
 
 
